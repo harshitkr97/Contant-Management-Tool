@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(135, 159, 193);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text-section {
+    margin-bottom: 20px;
+    width: 37cm;
+}
+
+.text-section > textarea{
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-family: Arial, sans-serif;
+
+    font-size: 1.6vw;
+}
+
+.writing-section {
+    text-decoration: wavy;
+    font-size: .5cm;
+    color: black;
+}
+
+.div-section {
+    height: 1cm;
+    border-radius: 8px;
+    margin: 1cm;
+    color: black;
+    text-align:justify;
+    
+} 
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.text-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-section input[type="text"],
+.text-section input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.6vw;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0.5cm;
+    background-color: brown;
+}
+
+.button button:hover{
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.container {
+    max-height: 300px;
+}
+
+.box {
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}

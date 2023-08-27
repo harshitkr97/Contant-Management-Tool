@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Content Management Tool</h1>
+  <div class="box">
+    <div class="text-section">
+    <b><label class="writing-section" for="title">Title:</label></b>
+      <input class="div-section" type="text" id="title" placeholder="Write your content">
+    </div>
+    
+    <div class="text-section">
+      <b><label class="writing-section" for="content">Content:</label></b>
+      <textarea class="div-section" cols="100" rows="20" id="content" placeholder="Write your content"></textarea>
+
+    </div>
+
+    <div class="text-section">
+      <b><label class="writing-section" for="image">Image:</label></b>
+      <input type="file" id="image" accept="image/*">
+    </div>
+
+    <div class="text-section">
+      <b><label class="writing-section" for="video">Video:</label></b>
+      <input type="file" id="video" accept="video/*">
+    </div>
+  </div>
+  <div class="button">
+    <button onclick="submitForm()">Submit</button>
+  </div>
+
+  <div class="container">
+    <div class="data-section" id="dataSection">
+    </div>
+  </div>
+</body>
+
+</html>
